@@ -1,0 +1,313 @@
+.body-home{
+    background-image: url('images/restuarant background image.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.body-meals{
+    background-image: url('images/background-01-land.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-orders{
+    background-image: url('images/background-02-land.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========== Home Page ==========*/
+
+.header{
+    background-color: fuchsia;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: black;
+}
+
+/*========== Home Page ==========*/
+
+#home-logo-img{
+    width: 15%;
+    display: block;
+    margin: auto;
+    padding: 30px 10px 10px 10px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+}
+
+/*===== Home Page Menu =====*/
+.home-menu-item{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 5px solid white;
+    display: block;
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 80%;
+    color: white;
+    
+}
+
+/*========== Meals Page ==========*/
+
+#meals{
+    padding-top: 50px;
+}
+
+/*===== Meals Menu Page=====*/
+
+.meals-list a{
+    text-decoration: none;
+}
+
+.meals-list-items{
+    border: 5px solid white;
+    margin: 10px;
+}
+
+.meals-list h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+}
+
+.meals-list p{
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*========== Order Page ==========*/
+
+#order{
+    padding-top: 50px;
+}
+
+/*===== Order Details =====*/
+
+.orders-details img{
+    width: 100%;
+    padding-top: 40px;
+}
+
+.orders-details h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    color: black;
+}
+.orders-details-info{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.orders-list-items h1{
+    text-align: center;
+    margin-top: 40px;
+    color: black;
+}
+
+.orders-list-items{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.orders-list-items p{
+    font-size: 18px;
+    display: inline-block;
+    color: black;
+}
+
+.orders-details-info p{
+    font-size: 18px;
+    display: block;
+    color: black;
+}
+
+.orders-details-extras{
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 5px solid white;
+}
+
+.orders-details-extras h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.orders-details-extras label{
+    line-height: 25px;
+    margin-left: 10px;
+    color: black;
+}
+
+.orders-details-form p{
+    margin-left: 15px;
+    margin-right: 15px;
+    color: black;
+    font-size: 18px;
+}
+
+.orders-details-form input{
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 30px;
+    width: 80%;
+}
+
+.button{
+      display : block;
+      background-color: forestgreen;
+      text-decoration : none;
+      text-align  : center;
+      color       : white;
+      font-size   : 16px;
+      font-weight : 600;
+      margin : 12px 0;
+      padding : 8px 0;
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+
+
+#info-box-full{
+    background-color: white;
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 12px;
+}
+
+#main{
+    margin-top: 50px;
+    background: url('images/message receive background image.jpg');
+    background-repeat: repeat-y;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#info-box-full img{
+    width: 100%;
+}
+
+#info-box-full h1{
+    text-align: center;
+    color: black;
+}
+
+#info-box-full p{
+    font-size: 18px;
+    color: black;
+}
+
+
+/*========== RESPONSIVE LAYOUTS ==========*/
+
+@media only screen and (min-width: 600px) {
+    #meals{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #orders{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #meals{
+        width: 60%;
+        margin: auto;
+    }
+    
+    #orders{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #meals{
+        width: 40%;
+        margin: auto;
+    }
+    
+    #orders{
+        width: 40%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .body-meals{
+        background-image: url('images/background-01-port.png')
+    }
+    
+    .body-orders{
+        background-image: url('images/background-02-port.png')
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
